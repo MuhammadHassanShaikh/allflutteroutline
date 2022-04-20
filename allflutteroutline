@@ -1,0 +1,106 @@
+//  APP BAR  widget PART 1 BY AHIRLOG CHANNEL
+
+//appbar 1
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(MaterialApp(
+//     home: Scaffold(
+//       appBar: AppBar(
+//         leading: Icon(Icons.hotel_class_sharp),
+//         leadingWidth: 300,
+//       ),
+//       body: Center(
+//         child: Container(
+//           child: Text('hassan'),
+//           color: Colors.orange,
+//           padding: EdgeInsets.all(25),
+//         ),
+//       ),
+//     ),
+//   ));
+// }
+
+//appbar 2
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(MaterialApp(
+//     home: Scaffold(
+//       appBar: AppBar(),
+//       drawer: Drawer(),
+//       body: Center(
+//         child: Container(
+//           child: Text('hassan'),
+//           color: Colors.orange,
+//           padding: EdgeInsets.all(25),
+//         ),
+
+//       ),
+//     ),
+//   ));
+// }
+
+//appbar 3
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(MaterialApp(
+//     home: Scaffold(
+//       appBar: AppBar(
+//         title: Text('hassan'),
+//       ),
+//       body: Center(
+//         child: Container(
+//           child: Text('hassan'),
+//           color: Colors.orange,
+//           padding: EdgeInsets.all(25),
+//         ),
+//       ),
+//     ),
+//   ));
+// }
+
+//appbar 4
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(MaterialApp(
+//     home: Scaffold(
+//       appBar: AppBar(
+//         title: Container(
+//           width: 50,
+//           child: Image.network('src'),
+//         ),
+//         centerTitle: true,
+//       ),
+//       body: Center(
+//         child: Container(
+//           child: Text('hassan'),
+//           color: Colors.orange,
+//           padding: EdgeInsets.all(25),
+//         ),
+//       ),
+//     ),
+//   ));
+// }
+// //appbar 5
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(MaterialApp(
+//     debugShowCheckedModeBanner: false,
+//     home: Scaffold(
+//       appBar: AppBar(
+//         actions: [Icon(Icons.more_vert)],
+//       ),
+//       body: Center(
+//         child: Container(
+//           child: Text('hassan'),
+//           color: Colors.orange,
+//           padding: EdgeInsets.all(25),
+//         ),
+//       ),
+//     ),
+//   ));
+// }

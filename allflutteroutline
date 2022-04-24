@@ -1,4 +1,5 @@
-//1 
+//1
+
 //  APP BAR  widget PART 1 BY AHIRLOG CHANNEL
 
 //appbar 1
@@ -107,6 +108,7 @@
 // }
 
 // 2
+
 //************************************************************SCAFFOLD WIDGET***********************************************
 
 import 'package:flutter/material.dart';
@@ -148,3 +150,7 @@ class DemoAppState extends State<DemoApp> {
   }
 }
 
+
+//3
+
+//*********************************************STATELESS STATEFUL WIDGET**********************************

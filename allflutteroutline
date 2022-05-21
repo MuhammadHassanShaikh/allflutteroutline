@@ -498,3 +498,44 @@ void main() {
     ),
   ));
 }
+
+
+//  7
+
+//*******************************************************************ALL TEXT WIDGET***************************************************
+
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(Text(
+//     'hassan',
+//     textAlign: TextAlign.center,
+//     textDirection: TextDirection.ltr,
+//     style: TextStyle(color: Colors.blue),
+//   )
+//   );
+// }
+
+//text properties
+
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(MaterialApp(
+//     home: Scaffold(
+//       appBar: AppBar(
+//         title: Text('hassan'),
+//       ),
+//       body: Text(
+//         'hassan',
+//         textDirection: TextDirection.ltr,
+//         textAlign: TextAlign.center,
+//         overflow: TextOverflow.ellipsis,
+//         textScaleFactor: 5,
+//         softWrap: false,
+//         maxLines: 2,
+//         semanticsLabel: 'hash sign',
+//       ),
+//     ),
+//   ));
+// }

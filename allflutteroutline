@@ -567,3 +567,26 @@ void main() {
     ),
   ));
 }
+
+
+//TEXTSPAN
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+      home: Scaffold(
+    appBar: AppBar(title: Text('hassan')),
+    body: Center(
+      child: Text.rich(TextSpan(
+          text: 'hello',
+          style: TextStyle(fontSize: 30),
+          children: <InlineSpan>[
+            TextSpan(
+                text: 'hello',
+                style: TextStyle(fontSize: 20, color: Colors.orange)),
+            TextSpan(text: '!', style: TextStyle(fontSize: 40))
+          ])),
+    ),
+  )));
+}

@@ -590,3 +590,45 @@ void main() {
     ),
   )));
 }
+
+
+//TEXT WIDGET STYLE PROPRETIES
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(
+        title: Text('hassan'),
+      ),
+      body: Text(
+        'hassan',
+        textAlign: TextAlign.center,
+        style: TextStyle(
+            // fontSize: 30,
+            // fontWeight: FontWeight.bold,
+            // letterSpacing: 8.0,
+            // wordSpacing: 20.0,
+            // color: Colors.orange,
+            // foreground: Paint()
+            //   ..color = Colors.grey
+            //   ..strokeWidth = 3.0
+            //   ..style = PaintingStyle.stroke,
+            // background: Paint()
+            // ..color = Colors.green
+            // ..strokeWidth = 3.0
+            // ..style = PaintingStyle.stroke,
+            // backgroundColor: Colors.yellow,
+            // fontStyle: FontStyle.italic,
+            // decoration: TextDecoration.underline,
+            // decorationColor: Colors.yellow,
+            // decorationStyle: TextDecorationStyle.dashed,
+            // shadows: [
+            //   Shadow(color: Colors.grey,blurRadius: 4.0,offset: Offset(4, 1))
+            // ]
+            ),
+      ),
+    ),
+  ));
+}

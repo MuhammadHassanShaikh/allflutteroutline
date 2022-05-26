@@ -684,7 +684,7 @@ void main() {
         child: Center(
           child: IconButton(
             onPressed: () {},
-            icon: Icon(Icons.bubble_chart),
+            icon: Icon(Icons.bubble_chart),  // icons.image yai property bhi h
             iconSize: 100,
             color: Colors.brown,
             splashColor: Colors.black,

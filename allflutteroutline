@@ -632,3 +632,43 @@ void main() {
     ),
   ));
 }
+
+
+// ONLY BUTTON
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(MaterialApp(
+//     home: Scaffold(
+//       appBar: AppBar(
+//         title: Text('hassan'),
+//       ),
+//       body: Center(
+//         child: TextButton(
+//           child: Text('button'),
+//           onPressed: () {},
+//         ),
+//       ),
+//     ),
+//   ));
+// }
+
+//  BUTTON WITH ICON
+// import 'package:flutter/material.dart';
+
+// void main() {
+//   runApp(MaterialApp(
+//     home: Scaffold(
+//       appBar: AppBar(),
+//       body: Center(
+//         child: TextButton.icon(
+//           icon: Icon(Icons.arrow_back),
+//           label: Text('back'),
+//           onPressed: () {},
+//         ),
+//       ),
+//     ),
+//   ));
+// }
+
+

@@ -672,3 +672,28 @@ void main() {
 // }
 
 
+// BUTTON WITH HOVER , SPLASH PROPERTY
+
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MaterialApp(
+    home: Scaffold(
+      appBar: AppBar(),
+      body: Center(
+        child: Center(
+          child: IconButton(
+            onPressed: () {},
+            icon: Icon(Icons.bubble_chart),
+            iconSize: 100,
+            color: Colors.brown,
+            splashColor: Colors.black,
+            highlightColor: Colors.yellow,
+            hoverColor: Colors.blue,
+            splashRadius: 200,
+          ),
+        ),
+      ),
+    ),
+  ));
+}
